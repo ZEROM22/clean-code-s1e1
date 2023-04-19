@@ -58,7 +58,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="todo-new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -84,11 +84,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="todo-new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input#todo-new-task {
   width: 318px;
 }
 
@@ -115,7 +115,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px
 }
 button.todo__delete img {
@@ -128,7 +128,7 @@ button.todo__delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#todo-completed-tasks label {
   text-decoration: line-through;
   color: #888
 }
