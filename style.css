@@ -35,7 +35,7 @@ body {
 .todo__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo__wrapper {
@@ -133,7 +133,7 @@ li > * {
 }
 
 li .todo__input {
-  width: 226px
+  width: 226px;
 }
 
 button.todo__delete img {
@@ -149,17 +149,17 @@ button.todo__delete img:hover {
 /* Completed */
 .todo-complete .todo__label {
   text-decoration: line-through;
-  color: #888
+  color: #888;
 }
 
 /* Edit Task */
 li .todo__input {
-  display: none
+  display: none;
 }
 
 .todo__edit--on .todo__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo__edit--on .todo__label {
