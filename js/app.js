@@ -44,7 +44,7 @@ var createNewTaskElement = function (taskString) {
   editButton.className = "todo__button--edit";
 
   deleteButton.className = "todo__button--delete";
-  deleteButtonImg.src = "../assets/remove.svg";
+  deleteButtonImg.src = "https://zerom22.github.io/clean-code-s1e1/assets/remove.svg";
   deleteButtonImg.alt = "del";
   deleteButton.appendChild(deleteButtonImg);
 
